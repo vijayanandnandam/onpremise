@@ -43,7 +43,7 @@ services:
       - memcached
       - smtp
     ports:
-      - '9000:9000'
+      - '8000:9000'
 
   cron:
     extends: base
